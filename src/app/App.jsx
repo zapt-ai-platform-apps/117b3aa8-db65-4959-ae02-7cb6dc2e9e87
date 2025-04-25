@@ -7,7 +7,6 @@ import SubjectiveCommunicationPage from './pages/SubjectiveCommunication';
 import PPAPage from './pages/PPA';
 import IntegrationPage from './pages/Integration';
 import ProfilePage from './pages/Profile';
-import ZaptBadge from '@/modules/core/components/ZaptBadge';
 
 export default function App() {
   console.log('App rendering...');
@@ -26,7 +25,6 @@ export default function App() {
           </Route>
         </Routes>
       </AnimatePresence>
-      <ZaptBadge />
     </div>
   );
 }

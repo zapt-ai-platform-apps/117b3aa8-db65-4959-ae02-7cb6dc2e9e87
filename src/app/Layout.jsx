@@ -3,12 +3,13 @@ import { Outlet, useLocation } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { BottomNavigation } from '@/modules/core/components/BottomNavigation';
 import { Header } from '@/modules/core/components/Header';
+import { Footer } from '@/modules/core/components/Footer';
 
 export function Layout() {
   const location = useLocation();
   
   return (
-    <div className="flex flex-col h-full">
+    <div className="flex flex-col min-h-screen">
       <Header />
       <main className="flex-1 overflow-auto pb-16">
         <motion.div
@@ -23,6 +24,7 @@ export function Layout() {
         </motion.div>
       </main>
       <BottomNavigation />
+      <Footer />
     </div>
   );
 }
