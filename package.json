@@ -1,7 +1,7 @@
 {
-    "name": "reactjs-vite-tailwind-vercel",
+    "name": "spiritual-communication-app",
     "version": "1.0.0",
-    "description": "ReactJS app with Vite, Tailwind",
+    "description": "Aplikasi untuk memberdayakan pengguna dalam mewujudkan impian melalui sinergi komunikasi subyektif dan prinsip spiritual Islam",
     "type": "module",
     "scripts": {
         "dev": "vite",
@@ -10,9 +10,14 @@
         "start": "vite --host"
     },
     "dependencies": {
+        "@headlessui/react": "^1.7.18",
         "@sentry/browser": "^8.41.0",
+        "framer-motion": "^10.18.0",
         "react": "^18.2.0",
-        "react-dom": "^18.2.0"
+        "react-dom": "^18.2.0",
+        "react-icons": "^4.12.0",
+        "react-router-dom": "^6.22.0",
+        "zod": "^3.22.4"
     },
     "devDependencies": {
         "@vitejs/plugin-react": "^4.3.4",
